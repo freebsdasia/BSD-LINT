@@ -36,10 +36,10 @@ IBus 即“Intelligent Input Bus”（智能输入总线）。
 
 - shell 配置路径：
 
-- sh: `~/.profile` 写入 A 组配置
-- bash: `~/.bash_profile` 或 `~/.profile` 写入 A 组配置
-- zsh: `~/.zprofile` 写入 A 组配置
-- csh: `~/.cshrc` 写入 B 组配置
+1. sh: `~/.profile` 写入 A 组配置
+2. bash: `~/.bash_profile` 或 `~/.profile` 写入 A 组配置
+3. zsh: `~/.zprofile` 写入 A 组配置
+4. csh: `~/.cshrc` 写入 B 组配置
 
 注销后重新登录，点击 IBus 图标添加所需输入法，即可使用，无需进行中文化设置（测试环境为 SDDM/Xfce/FreeBSD 13.2/sh）或其他额外配置。建议在相应的 shell 配置文件中加入以下内容以确保 IBus 正常运行：
 
