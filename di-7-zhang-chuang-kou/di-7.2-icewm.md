@@ -13,7 +13,7 @@ IceWM 是基于 X Window 系统（X Window System）的窗口管理器。其设�
 ### 使用 Ports 安装
 
 ```sh
-# cd /usr/ports/x11-wm/icewm/ && make install clean # fluxbox
+# cd /usr/ports/x11-wm/icewm/ && make install clean
 # cd /usr/ports/x11-themes/icewm-extra-themes/ && make install clean 
 # cd /usr/ports/x11/xorg/ && make install clean 
 # cd /usr/ports/x11/slim/ && make install clean
