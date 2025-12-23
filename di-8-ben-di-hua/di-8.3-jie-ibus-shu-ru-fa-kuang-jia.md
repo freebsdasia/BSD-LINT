@@ -34,7 +34,7 @@ IBus 即“Intelligent Input Bus”（智能输入总线）。
 2. LightDM、GDM 可以在 `~/.profile` 中写入 A 组配置
 3. SDDM 可以在用户登录 shell 的配置文件中写入配置
 
-- shell 配置路径
+- Shell 配置路径
 
 1. sh: `~/.profile` 写入 A 组配置
 2. bash: `~/.bash_profile` 或 `~/.profile` 写入 A 组配置
