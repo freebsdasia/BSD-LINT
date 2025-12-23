@@ -34,7 +34,7 @@ IBus 即“Intelligent Input Bus”（智能输入总线）。
 2. LightDM、GDM 可以在 `~/.profile` 中写入 A 组配置
 3. SDDM 可以在用户登录 shell 的配置文件中写入配置
 
-- shell 配置路径：
+- shell 配置路径
 
 1. sh: `~/.profile` 写入 A 组配置
 2. bash: `~/.bash_profile` 或 `~/.profile` 写入 A 组配置
@@ -43,7 +43,7 @@ IBus 即“Intelligent Input Bus”（智能输入总线）。
 
 注销后重新登录，点击 IBus 图标添加所需输入法，即可使用，无需进行中文化设置（测试环境为 SDDM/Xfce/FreeBSD 13.2/sh）或其他额外配置。建议在相应的 shell 配置文件中加入以下内容以确保 IBus 正常运行：
 
-- A 组（在 sh、bash、zsh 中）：
+- A 组（在 sh、bash、zsh 中）
 
 ```ini
 export XIM=ibus                     # 设置 X 输入法为 IBus
@@ -54,7 +54,7 @@ export XIM_PROGRAM="ibus-daemon"    # 指定 XIM 程序为 ibus-daemon
 export XIM_ARGS="--daemonize --xim" # 设置 XIM 启动参数为守护进程模式并启用 XIM
 ```
 
-- B 组（在 csh 中）：
+- B 组（在 csh 中）
 
 ```ini
 setenv XIM ibus
